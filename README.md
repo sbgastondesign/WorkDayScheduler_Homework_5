@@ -4,7 +4,6 @@ Simple calendar application that allows a user to save events for each hour of t
 ## Goal:
 The goal was to use what we learned about third-party APIs in order to build a calendar that saves the user's inputs in the browser. This app needed to include the [Moment.js](https://momentjs.com/) library in order to successfully work with date and time. 
 
-(FINISH WRITING BELOW)
 
 ## Issues:
 - Getting data to save to local storage
