@@ -5,14 +5,17 @@ var placeholder = ''
 var workingHours = $(8) //9am - 5pm
 var selectedTime = $('#hour')
 
-usertextInput.text = "#row";
-console.log('entry added')
-function displayTime();
+var today = moment();
+$("#time-display").text(today.format('MMM DD, YYYY [at] hh:mm:ss a'));
 
-function displayTime() {
-    var rightNow = moment().format('MMM DD, YYYY [at] hh:mm:ss a');
-    timeDisplayEl.text(rightNow);
-}
+// usertextInput.text = "#row";
+// console.log('entry added')
+// function displayTime()
+
+// function displayTime() {
+//     moment().format('MMM DD, YYYY [at] hh:mm:ss a');
+//     timeDisplayEl.text(rightNow);
+// }
 
 
 
